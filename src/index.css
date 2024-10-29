@@ -1,0 +1,12 @@
+:root {
+  --mui-palette-customColor-main: #000 !important;
+  --mui-palette-customColor-contrastText: #c4c1e0 !important;
+  --mui-palette-customColor-dark: #4f4f4f !important;
+  --mui-palette-customColor-light: #ffffff !important;
+  --mui-palette-primary-main: #ffc627 !important;
+  --mui-palette-primary-light: #ece75f !important;
+  --mui-palette-primary-dark: #e6cc00 !important;
+  --mui-palette-secondary-main: #1976d2 !important;
+  --mui-palette-secondary-light: #b8e2f2 !important;
+  --mui-palette-secondary-dark: #1565c0 !important;
+}
