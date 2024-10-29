@@ -89,20 +89,23 @@ export default function App() {
   );
 }
 
-const StyledIconDiv = styled("div")(({ theme }) => ({
-  "& .MuiTypography-root": {
-    color: theme.palette.primary.main,
-  },
-  "& .MuiSvgIcon-root": {
-    color: theme.palette.primary.main,
-  },
-  "&:hover": {
-    background: theme.palette.background.default,
+const StyledIconDiv = styled("div")(({ theme }) => {
+  console.log("theme.palette.primary.main :>> ", theme.palette);
+  return {
     "& .MuiTypography-root": {
       color: theme.palette.primary.main,
     },
     "& .MuiSvgIcon-root": {
       color: theme.palette.primary.main,
     },
-  },
-}));
+    "&:hover": {
+      background: theme.palette.background.default,
+      "& .MuiTypography-root": {
+        color: theme.palette.secondary.main,
+      },
+      "& .MuiSvgIcon-root": {
+        color: theme.palette.secondary.main,
+      },
+    },
+  };
+});
